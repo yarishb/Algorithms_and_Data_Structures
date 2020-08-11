@@ -6,7 +6,7 @@ function factioral(num){
 factioral(3)
 
 
-// Non recursion way of finding factorial
+// Non recursion way of finding factorial 
 
 
 function nonRecursionFactorial(num){
