@@ -1,0 +1,11 @@
+{
+  "name": "course_code",
+  "version": "1.0.0",
+  "description": "This is code of full course",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bohdan Yarish",
+  "license": "ISC"
+}
