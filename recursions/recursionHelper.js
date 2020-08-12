@@ -7,7 +7,7 @@ function collectOdds(arr){
           if(inputHelper.length === 0){
                return;
           }
-          if(inputHelper[0] % 2 === 0){
+          if(inputHelper[0] % 2 !== 0){
                result.push(inputHelper[0])
           } 
           helper(inputHelper.slice(1))
