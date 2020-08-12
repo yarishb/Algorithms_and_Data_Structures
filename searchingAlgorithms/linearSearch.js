@@ -1,5 +1,5 @@
 function linearSearch(arr, num){
-     //Finding element in array using linear search function
+     //Finding element in array using linear search algorithm
      for(let j = 0; j <= arr.length; j++){
           if(arr[j] === num) return j
      }
