@@ -1,4 +1,6 @@
 function collectOdds(arr){
+     //The function shows how to collect odd values using recursion function with a helper
+
      let result = []
 
      function helper(inputHelper){
