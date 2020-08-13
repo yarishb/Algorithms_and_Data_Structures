@@ -1,3 +1,6 @@
+// There are build in js sorting methods.
+
+
 function numberCompare(num1, num2){
      return num1 - num2
 }
