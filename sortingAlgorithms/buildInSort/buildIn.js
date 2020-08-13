@@ -1,5 +1,4 @@
-// There are build in js sorting methods.
-
+// There are build in JavaScript sorting methods.
 
 function numberCompare(num1, num2){
      return num1 - num2
