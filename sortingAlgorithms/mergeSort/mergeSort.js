@@ -1,7 +1,7 @@
 //This is a merge sorting algorithm
 
 
-// this is the function that slices taken array with recursion and sends slices over to merge function
+// this is the function that slices taken array with recursion and sends slices over to merge function.
 function mergeSort(arr){
      if(arr.length <= 1) return arr
      let mid = Math.floor(arr.length / 2)
