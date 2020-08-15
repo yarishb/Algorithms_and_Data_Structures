@@ -22,4 +22,4 @@ function isValid(char){
         return true
 }
 
-findChar("Hello world hi!!!")
+findChar("Hello world hi!!!:)")
