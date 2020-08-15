@@ -12,6 +12,7 @@
     <h4>Avarage Case - O(n ** 2)</h4>
    </li>
 </ul>
+<hr />
  <ul>
   <h2>Selection Sort</h2>
   <li>
