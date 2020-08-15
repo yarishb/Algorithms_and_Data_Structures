@@ -1,7 +1,7 @@
  <h1> Big O of <i>Sorting Algorithms</i></h1>
  
  <ul>
-  <h3>Bubble Sort</h3>
+  <h2>Bubble Sort</h2>
   <li>
     <h4>Worst Case - O(n ** 2)</h4>
    </li>
@@ -13,7 +13,7 @@
    </li>
 </ul>
  <ul>
-  <h3>Selection Sort</h3>
+  <h2>Selection Sort</h2>
   <li>
     <h4>Worst Case - O(n ** 2)</h4>
    </li>
@@ -25,7 +25,7 @@
   </li>
 </ul>
  <ul>
-  <h3>Insertion Sort</h3>
+  <h2>Insertion Sort</h2>
   <li>
     <h4>Worst Case - O(n ** 2)</h4>
    </li>
@@ -37,7 +37,7 @@
   </li>
 </ul>
  <ul>
-  <h3>Merge Sort</h3>
+  <h2>Merge Sort</h2>
   <li>
     <h4>Worst Case - O(n log(n))</h4>
     </li>
@@ -49,7 +49,7 @@
   </li>
 </ul>
  <ul>
-  <h3>Quick Sort</h3>
+  <h2>Quick Sort</h2>
   <li>
     <h4>Worst Case - O(n**2)</h4>
   </li>
@@ -61,7 +61,7 @@
   </li>
 </ul>
  <ul>
-  <h3>Radix Sort</h3>
+  <h2>Radix Sort</h2>
   <li>
     <h4>Worst Case - O(n**2)</h4>
    </li>
