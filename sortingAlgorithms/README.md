@@ -25,6 +25,7 @@
     <h4>Avarage Case - O(n ** 2)</h4>
   </li>
 </ul>
+<hr />
  <ul>
   <h2>Insertion Sort</h2>
   <li>
@@ -37,6 +38,7 @@
   <h4>Avarage Case - O(n ** 2)</h4>
   </li>
 </ul>
+<hr />
  <ul>
   <h2>Merge Sort</h2>
   <li>
@@ -49,6 +51,7 @@
    <h4>Avarage Case - O(n log(n))</h4>
   </li>
 </ul>
+<hr />
  <ul>
   <h2>Quick Sort</h2>
   <li>
@@ -61,6 +64,7 @@
     <h4>Avarage Case - O(n log(n))</h4>
   </li>
 </ul>
+<hr />
  <ul>
   <h2>Radix Sort</h2>
   <li>
