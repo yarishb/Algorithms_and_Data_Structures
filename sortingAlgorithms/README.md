@@ -4,15 +4,23 @@
   <h3>Bubble Sort</h3>
   <li>
     <h4>Worst Case - O(n ** 2)</h4>
+   </li>
+   <li>
     <h4>Best Case - O(n)</h4>
+   </li>
+    <li>
     <h4>Avarage Case - O(n ** 2)</h4>
-  </li>
+   </li>
 </ul>
  <ul>
   <h3>Selection Sort</h3>
   <li>
     <h4>Worst Case - O(n ** 2)</h4>
+   </li>
+    <li>
     <h4>Best Case - O(n ** 2)</h4>
+   </li>
+  <li>
     <h4>Avarage Case - O(n ** 2)</h4>
   </li>
 </ul>
@@ -20,23 +28,35 @@
   <h3>Insertion Sort</h3>
   <li>
     <h4>Worst Case - O(n ** 2)</h4>
+   </li>
+  <li>
     <h4>Best Case - O(n)</h4>
-    <h4>Avarage Case - O(n ** 2)</h4>
+  </li>
+ <li>
+  <h4>Avarage Case - O(n ** 2)</h4>
   </li>
 </ul>
  <ul>
   <h3>Merge Sort</h3>
   <li>
     <h4>Worst Case - O(n log(n))</h4>
+    </li>
+   <li>
     <h4>Best Case - O(n log(n))</h4>
-    <h4>Avarage Case - O(n log(n))</h4>
+   </li>
+   <li>
+   <h4>Avarage Case - O(n log(n))</h4>
   </li>
 </ul>
  <ul>
   <h3>Quick Sort</h3>
   <li>
     <h4>Worst Case - O(n**2)</h4>
+  </li>
+ <li>
     <h4>Best Case - O(n log(n))</h4>
+   </li>
+  <li>
     <h4>Avarage Case - O(n log(n))</h4>
   </li>
 </ul>
@@ -44,7 +64,11 @@
   <h3>Radix Sort</h3>
   <li>
     <h4>Worst Case - O(n**2)</h4>
+   </li>
+    <li>
     <h4>Best Case - O(n log(n))</h4>
+    </li>
+ <li>
     <h4>Avarage Case - O(n log(n))</h4>
   </li>
 </ul>
