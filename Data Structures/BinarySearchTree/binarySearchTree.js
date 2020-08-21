@@ -67,6 +67,20 @@ class BinarySearchTree {
           }
           return data
       }
+      dfs(){
+           let visited = [],
+               current = this.root;
+
+          
+          function helper(node){
+               visited.push(node.val);
+               if(node.left) helper(node.left)
+               if(node.right) helper(node.right)    
+          }
+
+          helper(current)
+          return visited
+      }
 }
 
 var tree = new BinarySearchTree();
