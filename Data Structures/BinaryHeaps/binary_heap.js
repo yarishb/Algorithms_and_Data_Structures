@@ -14,6 +14,49 @@ class MaxBinaryHeap{
                index = parentIndex
           }
      }
+     remove(){
+          let  max = this.values[0],
+               end = this.values.pop()
+          
+          if(this.values.length > 0){
+               this.values[0] = end
+               this.sinkDown()
+          }
+          return max
+     }
+
+     sinkDown(){
+          let  index = 0,
+               length = this.values.length,
+               element = this.values[0]
+          while(true){
+               let  leftIdx = 2 * index + 1,
+                    rightIdx = 2 * index + 2,
+                    swap = null,
+                    left,right;
+
+               if(leftIdx < length){
+                    left = this.values[leftIdx]
+                    if(left > element){
+                         swap = leftIdx
+                    }
+               }
+               if(rightIdx < length){
+                    right = this.values[rightIdx]
+                    if(
+                         (swap === null && right > element) ||
+                         (swap !== null && right > left)
+                    ){
+                         swap = rightIdx
+                    }
+               }
+
+               if(swap === null) break
+               this.values[index] = this.values[swap]
+               this.values[swap] = element
+               index = swap
+          }
+     }
 }
 
 let heap = new MaxBinaryHeap()
