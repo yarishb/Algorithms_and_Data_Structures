@@ -7,7 +7,7 @@ function findChar(str){
             obj[char] = ++obj[char] || 1
         }
     }
-    console.log(obj);
+    return obj
 }
 
 
